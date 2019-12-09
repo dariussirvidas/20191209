@@ -1,0 +1,23 @@
+section {
+    background-color: #eeeeee;
+}
+
+table,
+td {
+    border: 1px solid #333;
+}
+
+.galery>ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+li {
+    margin: 10px;
+}
+
+li>img {
+    height: 300px;
+    width: 300px;
+}
